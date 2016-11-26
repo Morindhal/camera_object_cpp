@@ -1,5 +1,11 @@
 #include <iostream>
 
+
+/*
+ * This code is optimized for performance, not legibility.
+ */
+
+
 struct camera_object
 {
     camera_object(int tWidth, int tHeight, int tFramerate, int tQuality)
