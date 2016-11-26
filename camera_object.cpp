@@ -111,8 +111,7 @@ void correct_camera_object(camera_object *tCamera_object)
      * The loop through sResolution to best match the target resolution
      */
     int resolution_count = ((sizeof(sResolution))/ (sizeof(int)) ) / 2;
-    bool resolution_found = false;
-    for (int i = 0 ; i<resolution_count && !resolution_found ; i++)
+    for (int i = 0 ; i<resolution_count ; i++)
     {
         if ( tCamera_object->width < sResolution[i][0] )
         {
